@@ -19,7 +19,7 @@ const ProductPage = () => {
 
     const imagesArray = [
         { img: "/images/product7.png" },
-        { img: "/images/Product8.png" },
+        { img: "/images/product8.png" },
         { img: "/images/featureProduct2.png" },
         { img: "/images/Product4.png" },
         { img: "/images/featureProduct3.png" },

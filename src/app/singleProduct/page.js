@@ -5,7 +5,7 @@ import { FaShoppingCart } from 'react-icons/fa'; // Importing the cart icon from
 const singleProduct = () => {
     const imagesArray = [
         { img: "/images/product7.png" },
-        { img: "/images/Product8.png" },
+        { img: "/images/product8.png" },
         { img: "/images/featureProduct2.png" },
         { img: "/images/Product4.png" },
         { img: "/images/featureProduct3.png" },
