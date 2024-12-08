@@ -84,8 +84,9 @@ const Footer = () => {
         </div>
 
         {/* Footer Bottom Image */}
-        <div className="w-full mt-4">
-          <Image src="/images/footer.png" width={500} height={30}  />
+        <div className="w-full mt-4 flex justify-between items-center">
+        <p className="text-slate-500">@ 2021 - Blogy - Designed & Develop by Zakirsoft</p>
+        <Image src="/images/footpay.png" width={300} height={100}  />
         </div>
       </div>
     </footer>
