@@ -84,10 +84,15 @@ const Footer = () => {
         </div>
 
         {/* Footer Bottom Image */}
-        <div className="w-full mt-4 flex justify-between items-center">
-        <p className="text-slate-500">@ 2021 - Blogy - Designed & Develop by Zakirsoft</p>
-        <Image src="/images/footpay.png" width={300} height={100}  />
-        </div>
+        <div className="w-full mt-4 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+  <p className="text-slate-500 text-center md:text-left">
+    © 2021 - Blogy - Designed & Developed by Zakirsoft
+  </p>
+  <div className="flex justify-center">
+    <Image src="/images/footpay.png" width={300} height={100} className="max-w-full h-auto" />
+  </div>
+</div>
+
       </div>
     </footer>
   );
